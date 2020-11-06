@@ -1,0 +1,138 @@
+body {
+    display: block;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bg-head {
+    background: #007765;
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+.top-head {
+
+}
+
+.logo {
+    padding: 20px 0 20px 55px;
+}
+
+.nav {
+    float: right;
+}
+
+.navigation {
+    padding: 0;
+    margin: 29px 54px 26px 0;
+
+}
+
+.bot-head {
+    display: flex;
+    justify-content: center;
+
+    background: url('../img/bg-image.png') no-repeat center top / cover;
+}
+
+.pres {
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 84px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    text-align: center;
+}
+
+.the_problem {
+    display: flex;
+    justify-content: center;
+    background: #EEEEEE no-repeat center top / cover;
+}
+
+.theme {
+    margin: 48px 0 16px 0;
+    text-align: center;
+    color: #007765;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 500;
+}
+
+.par_prob {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 488px;
+    margin-bottom: 92px;
+}
+
+.theme_problem {
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    margin: 0 55px;
+}
+
+.neuro {
+    display: flex;
+    justify-content: center;
+    background: url("../img/an-bg-image.png") no-repeat center top / cover;
+}
+
+.supercomp {
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    padding: 128px 163px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+
+.logo_pos {
+    margin: 0 48px 35px 55px;
+}
+
+.fill {
+    display: flex;
+}
+
+.first_par {
+    margin: 0;
+}
+
+.spacer {
+    margin-bottom: 92px;
+}
+
+.second_par {
+    margin-bottom: 40px;
+}
